@@ -4,6 +4,7 @@ import Router from 'vue-router'
 Vue.use(Router)
 
 export default new Router({
+  mode: 'history',
   routes: [
     {
       path: '/',
@@ -11,9 +12,10 @@ export default new Router({
       component: () => import('./views/EventList')
     },
     {
-      path: '/event',
+      path: '/event/:id',
       name: 'event-show',
-      component: () => import('./views/EventShow')
+      component: () => import('./views/EventShow'),
+      props: true
     },
     {
       path: '/event/create',
