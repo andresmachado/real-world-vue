@@ -28,7 +28,14 @@
       "location": "Catlandia",
       "date": "2019-01-31T22:09:00.000Z",
       "time": "7:00",
-      "attendees": []
+      "attendees": [
+        {
+          "name": "Andre Machado"
+        },
+        {
+          "name": "Joseline"
+        }
+      ]
     },
     {
       "id": 4582797,
