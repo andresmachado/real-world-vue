@@ -2,8 +2,8 @@
   <div id="nav" class="nav">
     <router-link to="/" class="brand">Real World Vue</router-link>
     <nav>
-      <router-link :to="{ name: 'event-list' }">Home</router-link>|
-      <router-link :to="{ name: 'event-create' }">Create Event</router-link>
+      <router-link :to="{ name: 'event-list' }">List</router-link>&nbsp;|
+      <router-link :to="{ name: 'event-create' }">Create</router-link>
     </nav>
   </div>
 </template>

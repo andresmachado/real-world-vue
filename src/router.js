@@ -12,15 +12,15 @@ export default new Router({
       component: () => import('./views/EventList')
     },
     {
+      path: '/event/create',
+      name: 'event-create',
+      component: () => import('./views/EventCreate')
+    },
+    {
       path: '/event/:id',
       name: 'event-show',
       component: () => import('./views/EventShow'),
       props: true
-    },
-    {
-      path: '/event/create',
-      name: 'event-create',
-      component: () => import('./views/EventCreate')
     }
   ]
 })
