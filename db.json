@@ -123,6 +123,23 @@
       "time": "7:00",
       "attendees": [],
       "description": "adasdas12123"
+    },
+    {
+      "id": 7350764,
+      "user": {
+        "id": "abc123",
+        "name": "Adam"
+      },
+      "category": "food",
+      "organizer": {
+        "id": "abc123",
+        "name": "Adam"
+      },
+      "title": "SUCESSS",
+      "location": "",
+      "date": "",
+      "time": "",
+      "attendees": []
     }
   ]
 }
