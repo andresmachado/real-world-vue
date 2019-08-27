@@ -16,9 +16,9 @@
     <p>{{ event.description }}</p>
     <h2>
       Attendees
-      <span class="badge -fill-gradient">
-        {{ event.attendees ? event.attendees.length : 0 }}
-      </span>
+      <span class="badge -fill-gradient">{{
+        event.attendees ? event.attendees.length : 0
+      }}</span>
     </h2>
     <ul class="list-group">
       <li
@@ -33,16 +33,15 @@
 </template>
 
 <script>
-import { mapState, mapActions } from 'vuex'
 export default {
-  props: ['id'],
-  created() {
-    this.fetchEvent(this.id)
-  },
-  computed: mapState({
-    event: state => state.events.event
-  }),
-  methods: mapActions('events', ['fetchEvent'])
+  // The event is being passed by the router.js inside the beforeEnter() method as a props.
+  // It's being returned from the `store/events.js`
+  props: {
+    event: {
+      type: Object,
+      required: true
+    }
+  }
 }
 </script>
 

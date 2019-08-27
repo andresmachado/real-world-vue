@@ -140,6 +140,41 @@
       "date": "",
       "time": "",
       "attendees": []
+    },
+    {
+      "id": 5185423,
+      "user": {
+        "id": "abc123",
+        "name": "Adam"
+      },
+      "category": "housing",
+      "organizer": {
+        "id": "abc123",
+        "name": "Adam"
+      },
+      "title": "House Cleaning",
+      "location": "",
+      "date": "",
+      "time": "",
+      "attendees": []
+    },
+    {
+      "id": 4050675,
+      "user": {
+        "id": "abc123",
+        "name": "Adam"
+      },
+      "category": "food",
+      "organizer": {
+        "id": "abc123",
+        "name": "Adam"
+      },
+      "title": "Diner with Friends",
+      "location": "My home",
+      "date": "2019-08-03T13:41:00.000Z",
+      "time": "4:00",
+      "attendees": [],
+      "description": "Diner with Friends"
     }
   ]
 }
